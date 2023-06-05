@@ -1,7 +1,16 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Login</router-link>
+    |
+    <router-link to="/role">Role</router-link>
+    |
+    <router-link to="/texture">Texture</router-link>
+    |
+    <router-link to="/publisher">Publisher</router-link>
+    |
+    <router-link to="/type">Type</router-link>
+    |
+
   </nav>
   <router-view/>
 </template>
